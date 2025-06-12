@@ -139,7 +139,6 @@ function ProjectCard({ project, index, isInView, onOpenModal }: ProjectCardProps
       transition={{ delay: index * 0.1 }}
       variants={projectCardHover}
       whileHover="hover"
-      initial="rest"
       onClick={() => onOpenModal(project)}
     >
       <div className="relative overflow-hidden">

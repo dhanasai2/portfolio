@@ -3,14 +3,14 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 import { fadeInUp, staggerContainer, skillProgressAnimation } from "@/lib/animations";
 
 const skills = [
-  { name: "React", icon: "⚛️", percentage: 90, description: "Frontend framework" },
-  { name: "Node.js", icon: "🟢", percentage: 85, description: "Backend runtime" },
-  { name: "TypeScript", icon: "🔷", percentage: 88, description: "Type-safe JavaScript" },
-  { name: "Python", icon: "🐍", percentage: 80, description: "AI & Backend" },
-  { name: "AWS", icon: "☁️", percentage: 75, description: "Cloud platform" },
-  { name: "Docker", icon: "🐳", percentage: 70, description: "Containerization" },
-  { name: "MongoDB", icon: "🍃", percentage: 85, description: "NoSQL database" },
-  { name: "PostgreSQL", icon: "🐘", percentage: 80, description: "SQL database" },
+  { name: "Java", icon: "☕", percentage: 90, description: "Programming language" },
+  { name: "Python", icon: "🐍", percentage: 85, description: "Programming & AI" },
+  { name: "JavaScript", icon: "🟨", percentage: 80, description: "Web development" },
+  { name: "C++", icon: "⚡", percentage: 85, description: "System programming" },
+  { name: "Flutter", icon: "💙", percentage: 80, description: "Mobile development" },
+  { name: "Django", icon: "🎯", percentage: 75, description: "Web framework" },
+  { name: "MongoDB", icon: "🍃", percentage: 70, description: "NoSQL database" },
+  { name: "Git", icon: "🌿", percentage: 75, description: "Version control" },
 ];
 
 interface SkillCardProps {

@@ -64,19 +64,19 @@ export default function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "john.developer@email.com",
-      href: "mailto:john.developer@email.com"
+      value: "saigundumogula5@gmail.com",
+      href: "mailto:saigundumogula5@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 9573614202",
+      href: "tel:+919573614202"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Amalapuram, India",
       href: "#"
     }
   ];

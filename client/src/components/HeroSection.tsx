@@ -10,9 +10,14 @@ export default function HeroSection() {
   };
 
   const downloadResume = () => {
-    // Create a simple resume download or open in new tab
-    const resumeUrl = "#"; // Replace with actual resume URL
-    window.open(resumeUrl, "_blank");
+    // Download the resume PDF
+    const resumeUrl = "/assets/Dhana_Sai_Resume.pdf";
+    const link = document.createElement('a');
+    link.href = resumeUrl;
+    link.download = 'Dhana_Sai_Gundumogula_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -36,22 +41,22 @@ export default function HeroSection() {
           className="font-bold text-5xl md:text-7xl mb-6 font-mono"
           variants={fadeInUp}
         >
-          John Developer
+          Dhana Sai Gundumogula
         </motion.h1>
         
         <motion.h2
           className="font-semibold text-3xl md:text-5xl text-gray-400 mb-8 font-mono"
           variants={fadeInUp}
         >
-          Full Stack Developer
+          Full Stack Web Developer
         </motion.h2>
         
         <motion.p
           className="text-xl text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed"
           variants={fadeInUp}
         >
-          I craft exceptional digital experiences with modern technologies, 
-          turning ideas into beautiful, functional applications.
+          B.Tech IT student passionate about building scalable web applications, 
+          full-stack solutions, and AI-powered systems. I solve real-world problems using modern technology.
         </motion.p>
         
         <motion.div

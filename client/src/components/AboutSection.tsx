@@ -6,9 +6,9 @@ export default function AboutSection() {
   const { ref, isInView } = useScrollAnimation();
 
   const stats = [
-    { value: "5+", label: "Years Experience" },
-    { value: "50+", label: "Projects Completed" },
-    { value: "25+", label: "Happy Clients" },
+    { value: "3+", label: "Years Learning" },
+    { value: "10+", label: "Projects Built" },
+    { value: "6+", label: "Certifications" },
   ];
 
   return (
@@ -26,21 +26,23 @@ export default function AboutSection() {
             
             <div className="space-y-6 text-gray-400 leading-relaxed">
               <p>
-                Hello! I'm John, a passionate full-stack developer with over 5 years of experience 
-                creating digital solutions that make a difference. My journey in web development 
-                started in 2018, and I've been fascinated by the endless possibilities of code ever since.
+                Hello! I'm Dhana Sai Gundumogula, a passionate B.Tech Information Technology student 
+                at JNTU Gurajada Vizianagaram. With a strong foundation in both front-end and back-end 
+                development, I specialize in building scalable web applications, full-stack solutions, 
+                and AI-powered systems.
               </p>
               
               <p>
-                I specialize in modern JavaScript frameworks, cloud technologies, and creating 
-                seamless user experiences. When I'm not coding, you'll find me exploring new 
-                technologies, contributing to open source projects, or sharing knowledge with 
-                the developer community.
+                I enjoy solving real-world problems using technology and have experience with 
+                multiple programming languages including Java, C++, Python, and JavaScript. 
+                My expertise spans from mobile app development with Flutter to web development 
+                with Django and modern JavaScript frameworks.
               </p>
               
               <p>
-                Currently, I'm focused on building accessible, performant web applications 
-                and exploring the intersection of AI and web development.
+                Currently pursuing my Bachelor's degree with a CGPA of 8.1, I'm focused on 
+                expanding my knowledge in full-stack development and exploring emerging 
+                technologies in AI and cloud computing.
               </p>
             </div>
             

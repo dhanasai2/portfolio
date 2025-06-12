@@ -82,9 +82,9 @@ export default function ContactSection() {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+    { icon: Github, href: "https://github.com/saigundumogula", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/dhana-sai-gundumogula", label: "LinkedIn" },
+    { icon: Twitter, href: "https://twitter.com/saigundumogula", label: "Twitter" },
   ];
 
   return (

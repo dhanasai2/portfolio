@@ -50,7 +50,7 @@ export default function Navigation() {
             whileTap={{ scale: 0.95 }}
             onClick={() => scrollToSection("#home")}
           >
-            Portfolio
+            Dhana Sai
           </motion.div>
 
           {/* Desktop Navigation */}

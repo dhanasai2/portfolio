@@ -3,9 +3,9 @@ import { Github, Linkedin, Twitter, Heart } from "lucide-react";
 
 export default function Footer() {
   const socialLinks = [
-    { icon: Github, href: "https://github.com", label: "GitHub" },
-    { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+    { icon: Github, href: "https://github.com/saigundumogula", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/dhana-sai-gundumogula", label: "LinkedIn" },
+    { icon: Twitter, href: "https://twitter.com/saigundumogula", label: "Twitter" },
   ];
 
   return (
@@ -18,9 +18,9 @@ export default function Footer() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <span>© 2024 John Developer. Made with</span>
+            <span>© 2024 Dhana Sai Gundumogula. Made with</span>
             <Heart className="w-4 h-4 text-red-500 fill-current" />
-            <span>and lots of coffee.</span>
+            <span>and lots of code.</span>
           </motion.div>
           
           <motion.div

@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Heart } from "lucide-react";
+import { Github, Linkedin, Twitter, Instagram, Heart } from "lucide-react";
 
 export default function Footer() {
   const socialLinks = [
-    { icon: Github, href: "https://github.com/saigundumogula", label: "GitHub" },
-    { icon: Linkedin, href: "https://www.linkedin.com/in/dhana-sai-gundumogula", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com/saigundumogula", label: "Twitter" },
+    { icon: Github, href: "https://github.com/dhanasai2", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/dhana-sai", label: "LinkedIn" },
+    { icon: Twitter, href: "https://twitter.com/The_Six_Eyes", label: "X (Twitter)" },
+    { icon: Instagram, href: "https://instagram.com/sai_gundumogula_", label: "Instagram" },
   ];
 
   return (

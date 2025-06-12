@@ -9,79 +9,23 @@ import ProjectModal from "./ProjectModal";
 const projects = [
   {
     id: "project1",
-    title: "Flutter Mobile Apps Collection",
-    description: "A repository containing different types of Flutter applications showcasing mobile development skills with Dart programming language.",
-    fullDescription: "A comprehensive collection of Flutter applications demonstrating various mobile development concepts. This repository showcases different types of mobile apps built with Flutter framework, highlighting skills in Dart programming, UI/UX design, and mobile app architecture.",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    technologies: ["Flutter", "Dart", "Android", "iOS", "Firebase"],
+    title: "Job Portal - Django Based Role-Based Hiring Platform",
+    description: "A fully functional job portal built using Django that supports role-based access control for Applicants, Companies, and Admins. It streamlines the hiring process with email notifications, professional UI, and dark/light mode.",
+    fullDescription: "This is a comprehensive job portal built using Django that supports role-based access control for Applicants, Companies, and Admins. It streamlines the hiring process by allowing companies to post jobs, users to apply, and admins to monitor activities. The portal features email notification system, professional UI with animations, dark/light mode toggle, and is designed to scale efficiently.",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
+    technologies: ["Python", "Django", "HTML5", "CSS3", "Bootstrap", "JavaScript", "SQLite"],
     features: [
-      "Cross-platform mobile development",
-      "Multiple app examples and demos",
-      "Modern UI/UX implementations",
-      "State management solutions",
-      "Platform-specific integrations",
-      "Responsive mobile designs",
-      "Clean code architecture"
-    ],
-    liveUrl: "https://github.com/saigundumogula/flutter-projects",
-    githubUrl: "https://github.com/saigundumogula/flutter-projects"
-  },
-  {
-    id: "project2", 
-    title: "Color Tap Game",
-    description: "An interactive mobile game application built with Flutter featuring engaging gameplay mechanics and responsive design.",
-    fullDescription: "An interactive color-based tap game developed using Flutter. The game features engaging gameplay mechanics, smooth animations, and responsive design optimized for mobile devices. Players interact with colored elements in a fun and challenging gaming experience.",
-    image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    technologies: ["Flutter", "Dart", "Game Development", "Animations"],
-    features: [
-      "Interactive gameplay mechanics",
-      "Smooth animations and transitions",
-      "Responsive touch controls",
-      "Score tracking system",
-      "Engaging visual design",
-      "Cross-platform compatibility",
-      "Performance optimized"
-    ],
-    liveUrl: "https://github.com/saigundumogula/color-tap-game",
-    githubUrl: "https://github.com/saigundumogula/color-tap-game"
-  },
-  {
-    id: "project3",
-    title: "Netflix Clone",
-    description: "A web application clone of Netflix built using HTML and CSS, demonstrating frontend development skills and responsive design principles.",
-    fullDescription: "A static web application that replicates the Netflix user interface using HTML and CSS. This project demonstrates frontend development skills, responsive design principles, and attention to detail in recreating a popular streaming platform's layout and styling.",
-    image: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    technologies: ["HTML5", "CSS3", "Responsive Design", "Frontend"],
-    features: [
-      "Pixel-perfect Netflix UI recreation",
-      "Responsive design for all devices",
-      "Clean and semantic HTML structure",
-      "Modern CSS styling techniques",
-      "Interactive hover effects",
-      "Cross-browser compatibility",
-      "Optimized loading performance"
-    ],
-    liveUrl: "https://github.com/saigundumogula/netflix-clone",
-    githubUrl: "https://github.com/saigundumogula/netflix-clone"
-  },
-  {
-    id: "project4",
-    title: "Portfolio Website",
-    description: "A modern, responsive portfolio website showcasing projects, skills, and professional experience with advanced animations and interactive elements.",
-    fullDescription: "A comprehensive portfolio website built with modern web technologies. Features include responsive design, smooth animations, interactive project showcases, contact forms, and optimized performance. The site demonstrates full-stack development capabilities and modern web design principles.",
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400",
-    technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Node.js"],
-    features: [
-      "Responsive and modern design",
-      "Advanced animations and transitions",
-      "Interactive project showcase",
-      "Contact form with backend integration",
-      "Skills visualization with progress indicators",
-      "Smooth scrolling navigation",
-      "Performance optimized"
+      "Role-based access: User, Company, and Admin dashboards",
+      "Job posting and application system",
+      "Email alerts for application status (Accepted/Rejected)",
+      "Password reset with email OTP",
+      "Dark/Light mode toggle",
+      "Resume upload for applicants",
+      "Admin panel for job & user monitoring",
+      "Clean, responsive UI with animation effects"
     ],
     liveUrl: "#",
-    githubUrl: "#"
+    githubUrl: "https://github.com/dhanasai2/job-portal-django"
   }
 ];
 
@@ -201,12 +145,12 @@ export default function ProjectsSection() {
             Featured <span className="gradient-text">Projects</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            A collection of projects that showcase my skills and passion for development
+            My featured Django project showcasing full-stack development skills
           </p>
         </motion.div>
         
         <motion.div
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid md:grid-cols-1 lg:grid-cols-1 gap-8 max-w-2xl mx-auto"
           variants={staggerContainer}
           initial="initial"
           animate={isInView ? "animate" : "initial"}

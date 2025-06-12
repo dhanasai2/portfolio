@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Instagram, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -82,9 +82,10 @@ export default function ContactSection() {
   ];
 
   const socialLinks = [
-    { icon: Github, href: "https://github.com/saigundumogula", label: "GitHub" },
-    { icon: Linkedin, href: "https://www.linkedin.com/in/dhana-sai-gundumogula", label: "LinkedIn" },
-    { icon: Twitter, href: "https://twitter.com/saigundumogula", label: "Twitter" },
+    { icon: Github, href: "https://github.com/dhanasai2", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/dhana-sai", label: "LinkedIn" },
+    { icon: Twitter, href: "https://twitter.com/The_Six_Eyes", label: "X (Twitter)" },
+    { icon: Instagram, href: "https://instagram.com/sai_gundumogula_", label: "Instagram" },
   ];
 
   return (
